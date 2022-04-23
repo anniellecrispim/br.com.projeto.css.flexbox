@@ -1,0 +1,228 @@
+:root {
+    --yellow: #ffcc29;
+    --blue: #1d539e;
+    --gray: #828799;
+    --page-background: #f9fbfc;
+    --titulo-black: #1E2338;
+}
+
+* { 
+    font-family: "Open Sans"; 
+    margin: 0px;
+    padding: 0px;
+    font-style: normal;
+}
+
+p {
+    color: rgb(12, 12, 12);
+   
+}
+.página {
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+}
+
+.top {
+    background-color: var(--blue);
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    background-color: var(--blue);
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.top-header {
+    color: white;
+    font-weight: 700;
+    font-size: 48px;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+
+.top-text {
+    color: white;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.background {
+    background-color: var(--page-background);
+    height: 50vh;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    height: 100%;
+    justify-self: center;
+    top: 35vh;
+    z-index: 2;
+    height: 75vh;
+    width: 100vw;  
+    flex-direction: row;
+}
+
+#header{
+    background-color: var(--yellow);
+    margin-right: -30px;
+    margin-left: -30px;
+    margin-top: -50px;
+    border-radius: 10px 10px 0px 0px;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+}
+
+#tituloSelecionado{
+    color: var(--blue);
+}
+
+.popularSelecionado {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+    width: 94px;
+    height: 32px;
+    border: 1px solid #1D539E;
+    box-sizing: border-box;
+    border-radius: 4px;
+    color: var(--page-background);
+    background-color: var(--blue);
+    font-size: 12px;
+    align-self: center;
+}
+.item-card {
+    background-color: var(--page-background);
+    height: 80%;
+    width: 20%;
+    margin-right: 2%;
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 1px 2px rgba(142, 150, 185, 0.25);
+}
+
+.titulocard {
+    font-size: 27px;
+    font-weight: 600;
+    color: var(--titulo-black);
+    margin-bottom: 1%;
+}
+
+.real {
+    font-size: 18px;
+    font-weight: 800;
+    color: var(--titulo-black);
+    font-size: 49px;
+}
+
+.cents {
+    color: var(--titulo-black) !important;
+    font-weight: 700 !important;
+}
+
+.mes {
+    font-size: 18px;
+    font-weight: 100;
+    color: var(--gray);
+}
+
+.price {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 0.5em;
+}
+
+.subtitle{
+    font: size 14px;
+    color: var(--gray);
+    font-weight: 400px;
+    line-height: 20px;
+    margin-bottom: 1em;
+}
+
+.espaco {
+    margin-bottom: 3%;
+}
+
+.lista {
+   /*  https://www.w3schools.com/cssref/tryit.asp?filename=trycss_list-style
+   */
+   font-family: 'Open Sans';
+   font-size: 14px;
+   font-weight: 600;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 14px;
+   line-height: 19px;
+   color: #828799;
+   margin-left: 2em;
+   margin-bottom: 5%;
+  
+}
+
+.icon-green{
+    color: green;
+}
+
+li {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+}
+
+.assinar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+    width: 80%;
+    height: 49px;
+    border: 1px solid #1D539E;
+    box-sizing: border-box;
+    border-radius: 10px;
+    color: var(--blue);
+    background-color: transparent;
+    font-size: 18px;
+    text-transform: uppercase;
+    align-self: center;
+    margin-top: auto;
+}
+
+.assinar-selecionado {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+    width: 80%;
+    height: 49px;
+    border: 1px solid #1D539E;
+    box-sizing: border-box;
+    border-radius: 10px;
+    color: var(--page-background);
+    background-color: var(--blue);
+    font-size: 18px;
+    text-transform: uppercase;
+    align-self: center;
+    margin-top: auto;
+}
+
+hr {
+    width: 100%;
+    background: #EEEEEE;
+    height: 1px;
+    border-color: #EEEEEE;
+}
